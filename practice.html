@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>jquery practice</title>
+        <link rel="stylesheet" href="css/main.css">
+        
+      </head>
+      <body>
+        <h1>this is heading 1</h1>
+        <h2>this is heading 2</h2>
+        
+    <!-- <p id="p1">this is paragraph</p>
+    
+    <p class="pclass"> this is class file</p>
+    
+    <a href="http://google.com" target="_blank" rel="noopener noreferrer">Google</a><br><br><br>
+     -->
+    <!-- <p> 
+        <input type="text" name="value1" id="value1" placeholder="write something">
+        <input type="text" name="value2" id="value2" placeholder="write something">
+      </p>
+     <button id="press">Test</button>                           
+    <div id="output"></div> -->
+
+    <input type="text" name="input1" id="input1" value="">
+    <input type="text" name="input2" id="input2" value="">
+ <!-- <a href="javascript: void(0)" onClick="calc()">Calculate</a> -->
+    <input type="text" name="output" id="output" value=""> 
+    <br>
+    <br>
+    <br>
+    <!-- <input type="text" name="input1" id="input1" value="">
+      <input type="text" name="input2" id="input2" value="">
+      
+      <input type="text" name="output" id="output" value="">  -->
+
+      <!-- <button id ="press">add</button>
+        <button id ="press">substract</button>
+ <button id ="press">multiply</button>
+ <button id ="press">divide</button> -->
+ 
+ 
+ <!-- <p id="input">Enter First Number: <input id="one">
+  <br/><br/>
+  Enter Second Number: <input id="two"></p>
+  <p><button onclick="fun()">Add, Subtract, Multiply, Divide</button></p>
+  
+  <p id="res" style="display:none;">
+    Addition Result = <input id="add"><br/><br/>
+    Subtraction Result = <input id="subtract"><br/><br/>
+    Multiplication Result = <input id="multiply"><br/><br/>
+    Division Result = <input id="divide"></p> -->
+    
+    
+    <input type="text" id="a" name="option">
+    <input type="text" id="b" name="task">
+    <input id="submit" type="button" value="press me">
+    <input type="text" name="output" id="addition" value="">
+    <input type="text" name="output" id="sub" value="">
+    <input type="text" name="output" id="mult" value="">
+    <input type="text" name="output" id="division" value="">
+    <br>
+    <br>
+    
+    <button id ="add">add</button>
+    <button id ="subtract">substract</button>
+    <button id ="multiply">multiply</button>
+    <button id ="divide">divide</button>
+    
+    
+    <p>If you click on the "Hide" button, I will disappear.</p> <button id="hide">-</button> <button id="show">+</button>
+    
+    <div><h5 id="demo"></h5></div>
+    
+    <p class="Str">This is my string</p>
+    <button type="button" id="btnRm">Click to Remove Character i</button>
+    <p class="resultStr"></p>
+    
+    <!-- textbox append -->
+    
+    
+    <div class='item'>
+      <input type="text" name="items[]" placeholder="Enter Something">
+      <button id="add">Add +</button>
+    </div>
+    <div id="items"></div>
+    <input type="button" id="a" value="hi">
+    <div id="b"></div>
+    
+    
+    <p id="repeat">Add inputbox</p>
+    <input type="text" id="a" value="this is new one"></input>
+    
+    
+    
+    <button id="btn1">Append input box</button>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <!-- form validation -->
+
+    
+
+
+
+    <!-- plugin using form validation -->
+    
+    <form class="cmxform" id="signupForm" method="get" action="">
+      <fieldset>
+        <legend>Validating a complete form</legend>
+        <p>
+          <label for="firstname">Firstname</label>
+              <input id="firstname" name="firstname" type="text">
+            </p>
+            <p>
+              <label for="lastname">Lastname</label>
+              <input id="lastname" name="lastname" type="text">
+            </p>
+            <p>
+              <label for="username">Username</label>
+              <input id="username" name="username" type="text">
+            </p>
+            <p>
+              <label for="password">Password</label>
+              <input id="password" name="password" type="password">
+            </p>
+            <p>
+              <label for="confirm_password">Confirm password</label>
+              <input id="confirm_password" name="confirm_password" type="password">
+            </p>
+            <p>
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email">
+            </p>
+            <p>
+              <label for="agree">Please agree to our policy</label>
+              <input type="checkbox" class="checkbox" id="agree" name="agree">
+            </p>
+            <p>
+              <label for="newsletter">I'd like to receive the newsletter</label>
+              <input type="checkbox" class="checkbox" id="newsletter" name="newsletter">
+            </p>
+            <fieldset id="newsletter_topics">
+              <legend>Topics (select at least two) - note: would be hidden when newsletter isn't selected, but is visible here for the demo</legend>
+              <label for="topic_marketflash">
+                <input type="checkbox" id="topic_marketflash" value="marketflash" name="topic">Marketflash
+              </label>
+              <label for="topic_fuzz">
+                <input type="checkbox" id="topic_fuzz" value="fuzz" name="topic">Latest fuzz
+              </label>
+              <label for="topic_digester">
+                <input type="checkbox" id="topic_digester" value="digester" name="topic">Mailing list digester
+              </label>
+              <label for="topic" class="error">Please select at least two topics you'd like to receive.</label>
+            </fieldset>
+            <p>
+              <input class="submit" type="submit" value="Submit">
+            </p>
+          </fieldset>
+        </form>
+        
+      
+
+
+
+        <!-- new form validation -->
+        
+        
+        
+        
+        
+        
+
+        
+        <h1 id="banner"><a href="https://jqueryvalidation.org/">jQuery Validation Plugin</a> Demo</h1>
+        <div id="main">
+	<p>Default submitHandler is set to display an alert into of submitting the form</p>
+	<form class="cmxform" id="commentForm" method="get" action="">
+    <fieldset>
+      <legend>Please provide your name, email address (won't be published) and a comment</legend>
+			<p>
+        <label for="cname">Name (required, at least 2 characters)</label>
+				<input id="cname" name="name" minlength="2" type="text" required>
+			</p>
+			<p>
+        <label for="cemail">E-Mail (required)</label>
+				<input id="cemail" type="email" name="email" required>
+			</p>
+			<p>
+        <label for="curl">URL (optional)</label>
+				<input id="curl" type="url" name="url">
+			</p>
+			<p>
+        <label for="ccomment">Your comment (required)</label>
+				<textarea id="ccomment" name="comment" required></textarea>
+			</p>
+			<p>
+        <input class="submit" type="submit" value="Submit">
+			</p>
+		</fieldset>
+	</form>
+	<form class="cmxform" id="signupForm" method="get" action="">
+		<fieldset>
+			<legend>Validating a complete form</legend>
+			<p>
+				<label for="firstname">Firstname</label>
+				<input id="firstname" name="firstname" type="text">
+			</p>
+			<p>
+        <label for="lastname">Lastname</label>
+				<input id="lastname" name="lastname" type="text">
+			</p>
+			<p>
+        <label for="username">Username</label>
+				<input id="username" name="username" type="text">
+			</p>
+			<p>
+        <label for="password">Password</label>
+				<input id="password" name="password" type="password">
+			</p>
+			<p>
+        <label for="confirm_password">Confirm password</label>
+				<input id="confirm_password" name="confirm_password" type="password">
+			</p>
+			<p>
+				<label for="email">Email</label>
+				<input id="email" name="email" type="email">
+			</p>
+			<p>
+        <label for="agree">Please agree to our policy</label>
+				<input type="checkbox" class="checkbox" id="agree" name="agree">
+			</p>
+			<p>
+        <label for="newsletter">I'd like to receive the newsletter</label>
+				<input type="checkbox" class="checkbox" id="newsletter" name="newsletter">
+			</p>
+			<fieldset id="newsletter_topics">
+        <legend>Topics (select at least two) - note: would be hidden when newsletter isn't selected, but is visible here for the demo</legend>
+				<label for="topic_marketflash">
+          <input type="checkbox" id="topic_marketflash" value="marketflash" name="topic">Marketflash
+				</label>
+				<label for="topic_fuzz">
+          <input type="checkbox" id="topic_fuzz" value="fuzz" name="topic">Latest fuzz
+				</label>
+				<label for="topic_digester">
+          <input type="checkbox" id="topic_digester" value="digester" name="topic">Mailing list digester
+				</label>
+				<label for="topic" class="error">Please select at least two topics you'd like to receive.</label>
+			</fieldset>
+			<p>
+        <input class="submit" type="submit" value="Submit">
+			</p>
+		</fieldset>
+	</form>
+  
+  
+  
+  
+  <script src="jquery/jquery-3.7.0.js"></script>
+  <script src="jquery-validation-master/jquery-validation-master/lib/jquery.js"></script>
+  <script src="jquery-validation-master/jquery-validation-master/dist/jquery.validate.js"></script>
+  <script src="jquery/main.js"></script>
+</body>
+</html> 
